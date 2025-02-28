@@ -1,0 +1,76 @@
+@media screen and (min-width: 768px) {
+    .navbar{
+        &__links{
+            position: initial;
+            transform: translateX(0);
+            opacity: 1;
+            background: transparent;
+            display: flex;
+            align-items: center;
+            justify-content: flex-end;
+        }
+        &__link{
+            margin: 0 55px;
+            a{
+                color: var(--gray);
+            }
+        }
+        &__icons{
+            display: none;
+        }
+    }
+    .banner{
+        flex-direction: row-reverse;
+        justify-content: space-around;
+        gap: 0;
+        &__heading{
+            max-width: 400px;
+            width: 100%;
+            text-align: inherit;
+        }
+        &__socials{
+            justify-content: flex-start;
+            gap: 20px;
+        }
+    }
+    .things{
+        .about{
+            flex-direction: row;
+            justify-content: space-around;
+            gap: 3rem;
+            &__infos{
+                flex-direction: column;
+                gap: 2rem; 
+            }
+            &__img{
+                width: 300px;
+                height: 300px;
+            }
+            &__info{
+                gap: 1rem;  
+                ul{
+                    li{
+                        font-size: 1.2rem;
+                    }
+                }
+                
+            }
+        }
+    }
+    .works{
+        &__img{
+            flex-direction: row;
+            align-items: inherit;
+            &-single{
+                align-items: center;
+                gap: 5rem;
+                img{
+                    max-width: 80%;
+                }
+                &:nth-child(1){
+                   margin-top: 5rem;
+                }
+            }
+        }
+    }
+}

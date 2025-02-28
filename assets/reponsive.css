@@ -1,0 +1,67 @@
+@media screen and (min-width: 768px) {
+  .navbar__links {
+    position: initial;
+    transform: translateX(0);
+    opacity: 1;
+    background: transparent;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+  }
+  .navbar__link {
+    margin: 0 55px;
+  }
+  .navbar__link a {
+    color: var(--gray);
+  }
+  .navbar__icons {
+    display: none;
+  }
+  .banner {
+    flex-direction: row-reverse;
+    justify-content: space-around;
+    gap: 0;
+  }
+  .banner__heading {
+    max-width: 400px;
+    width: 100%;
+    text-align: inherit;
+  }
+  .banner__socials {
+    justify-content: flex-start;
+    gap: 20px;
+  }
+  .things .about {
+    flex-direction: row;
+    justify-content: space-around;
+    gap: 3rem;
+  }
+  .things .about__infos {
+    flex-direction: column;
+    gap: 2rem;
+  }
+  .things .about__img {
+    width: 300px;
+    height: 300px;
+  }
+  .things .about__info {
+    gap: 1rem;
+  }
+  .things .about__info ul li {
+    font-size: 1.2rem;
+  }
+  .works__img {
+    flex-direction: row;
+    align-items: inherit;
+  }
+  .works__img-single {
+    align-items: center;
+    gap: 5rem;
+  }
+  .works__img-single img {
+    max-width: 80%;
+  }
+  .works__img-single:nth-child(1) {
+    margin-top: 5rem;
+  }
+}/*# sourceMappingURL=reponsive.css.map */
